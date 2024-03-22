@@ -6,9 +6,17 @@ body {
     position: relative;
 }
 
+#name {
+    padding-top: 30px;
+    font-size: 80px;
+    color: gray;
+    background-color: black;
+    text-align: center;
+}
+
 #main_box {
     background-color: black;
-    height: 562.5px;
+    height: 500.5px;
     width: 937.5px;
     display: flex;
     flex-direction: row;
@@ -20,7 +28,7 @@ body {
     background-color: grey;
     height: 243.5px;
     width: 243.5px;
-    border: 15px solid grey;
+    border: 5px solid grey;
     border-radius: 243.5px;
     display: flex;
     flex-direction: column;
@@ -83,8 +91,6 @@ body {
 }
 
 #reset:hover {
-    font-weight: 600;
-    font-size: 24.5px;
     cursor: grab;
     background-color: grey;
     color: black;
