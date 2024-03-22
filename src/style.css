@@ -1,0 +1,91 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+body {
+    position: relative;
+}
+
+#main_box {
+    background-color: black;
+    height: 1500px;
+    width: 2500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opt {
+    background-color: grey;
+    height: 650px;
+    width: 650px;
+    border: 15px solid grey;
+    border-radius: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.opt:hover {
+    cursor: grab;
+    border-color: red;
+    background-color: rgb(157, 146, 146);
+}
+.opt_name {
+    color: azure;
+    font-size: 100px;
+}
+
+.opt_sym {
+    font-size: 200px;
+}
+.opt:hover .opt_name{
+    font-size: 120px;
+}
+
+.opt:hover .opt_sym {
+    cursor: grab;
+    font-size: 240px;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 350px;
+    font-weight: bold;
+}
+#scores {
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+}
+#choice-print {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#reset {
+    position: absolute;
+    left: 40%;
+    height: 120px;
+    width: 480px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+}
+
+#reset:hover {
+    font-weight: 600;
+    font-size: 65px;
+    cursor: grab;
+    background-color: grey;
+    color: black;
+}
