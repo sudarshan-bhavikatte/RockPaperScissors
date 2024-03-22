@@ -8,8 +8,8 @@ body {
 
 #main_box {
     background-color: black;
-    height: 1500px;
-    width: 2500px;
+    height: 562.5px;
+    width: 937.5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,10 +18,10 @@ body {
 
 .opt {
     background-color: grey;
-    height: 650px;
-    width: 650px;
+    height: 243.5px;
+    width: 243.5px;
     border: 15px solid grey;
-    border-radius: 650px;
+    border-radius: 243.5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,19 +34,19 @@ body {
 }
 .opt_name {
     color: azure;
-    font-size: 100px;
+    font-size: 37.5px;
 }
 
 .opt_sym {
-    font-size: 200px;
+    font-size: 75px;
 }
 .opt:hover .opt_name{
-    font-size: 120px;
+    font-size: 45px;
 }
 
 .opt:hover .opt_sym {
     cursor: grab;
-    font-size: 240px;
+    font-size: 90px;
 }
 
 #result {
@@ -54,37 +54,37 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 350px;
+    font-size: 135.5px;
     font-weight: bold;
 }
 #scores {
     text-align: center;
-    font-size: 150px;
+    font-size: 66.5px;
     font-weight: bold;
 }
 #choice-print {
-    margin-top: 200px;
+    margin-top: 75px;
     text-align: center;
-    font-size: 100px;
+    font-size: 37.5px;
     font-weight: bold;
 }
 
 #reset {
     position: absolute;
     left: 40%;
-    height: 120px;
-    width: 480px;
-    font-size: 60px;
+    height: 45px;
+    width: 180px;
+    font-size: 22.5px;
     font-weight: 500;
-    margin-top: 40px;
+    margin-top: 15px;
     background-color: grey;
     color: white;
-    border-radius: 20px;
+    border-radius: 7.5px;
 }
 
 #reset:hover {
     font-weight: 600;
-    font-size: 65px;
+    font-size: 24.5px;
     cursor: grab;
     background-color: grey;
     color: black;

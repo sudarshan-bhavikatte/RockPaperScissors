@@ -10,25 +10,27 @@
 </head>
 
 <body>
-    <div id="main_box">
-        <button class="opt" id="rock" onclick="gamePlay('rock')">
-            <div class="opt_sym">✊</div>
-            <div class="opt_name">rock</div>
-        </button>
-        <button class="opt" id="paper" onclick="gamePlay('paper')">
-            <div class="opt_sym">🖐️</div>
-            <div class="opt_name">paper</div>
-        </button>
-        <button class="opt" id="scissors" onclick="gamePlay('scissors')">
-            <div class="opt_sym">✌️</div>
-            <div class="opt_name">scissors</div>
-        </button>
+    <div id="game">
+        <div id="main_box">
+            <button class="opt" id="rock" onclick="gamePlay('rock')">
+                <div class="opt_sym">✊</div>
+                <div class="opt_name">rock</div>
+            </button>
+            <button class="opt" id="paper" onclick="gamePlay('paper')">
+                <div class="opt_sym">🖐️</div>
+                <div class="opt_name">paper</div>
+            </button>
+            <button class="opt" id="scissors" onclick="gamePlay('scissors')">
+                <div class="opt_sym">✌️</div>
+                <div class="opt_name">scissors</div>
+            </button>
+        </div>
+        <button id="reset" onclick="resetScores()">Reset Scores</button>
+        <div id="choice-print"></div>
+        <div id="result">
+        </div>
+        <div id="scores"></div>
     </div>
-    <button id="reset" onclick="resetScores()">Reset Scores</button>
-    <div id="choice-print"></div>
-    <div id="result">
-    </div>
-    <div id="scores"></div>
 </body>
 
 </html>
